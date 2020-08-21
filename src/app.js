@@ -13,8 +13,8 @@ Navigation.events().registerAppLaunchedListener(() => {
     });
     
     const initParams = {
-        visitorId: "John Smith",
-        accountId: "Acme Inc",
+        // visitorId: "John Smith",
+        // accountId: "Acme Inc",
         visitorData: {
             age: 25,
             country: "USA"

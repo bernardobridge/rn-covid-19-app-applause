@@ -23,17 +23,17 @@
             </intent-filter>
         </activity>
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-        
+
         <meta-data android:name="insert_debug_logging" android:value="true" />
         <activity android:name="sdk.pendo.io.activities.PendoGateActivity" android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="pendo-2a3666a0"/>
+                <data android:scheme="pendo-c371e88c"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="2a3666a0" />
+                <action android:name="c371e88c" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
